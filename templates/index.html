@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digit Recognition</title>
+</head>
+<body>
+    <h1>Digit Recognition Web App</h1>
+    <form action="/predict" method="post" enctype="multipart/form-data">
+        <label for="file">Upload an image of a digit:</label>
+        <input type="file" name="file" id="file" required>
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
